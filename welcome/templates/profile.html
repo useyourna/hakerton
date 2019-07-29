@@ -1,0 +1,290 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+<body>
+ 
+
+
+         
+           
+       
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <form class="form-inline my-2 my-lg-0 col-md-7">
+                    <input class="myform-control mr-sm-2" type="search" placeholder="find peoples, instruments, bands and more..." aria-label="Search">
+                    <button class="btn btn-light"><i class="fa fa-search"></i></button>
+                </form>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-link">
+                        <a class="btn btn-primary btn-block btn-login" href="#">Login</a>
+                    </li>
+                    <li class="nav-link">
+                        <a class="btn btn-primary btn-block btn-register" href="#">Register</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <br><Br><br>
+
+    <section class="testimonials" id="gobottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="big-img">
+                        <img src="{% static 'chair.jpg' %}" class="img-fluid" width="400">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="inner-section wow fadeInUp">
+                        <h3 class="text-center font-weight-bold">Welcome to the <span class="text-center font-weight-bold">yurim world</span></h3>
+                        <br>
+                        <p class="text-justify">This is a place to introduce the Yurim. You may leave here if you are not curious. If you are curious, please stay here. Yurim was born in 2000 and is majoring in advertising and public relations at Dongguk University. Advertising was a dream for me, but not now. I am continuing to travel to find another dream. I don't care if I don't find it, but I'm still trying.</p>
+
+                        <div class="linear-grid">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-3 mb-2 wow bounceInUp" data-wow-duration="1.4s" >
+                                    <img src="{% static 'picture.jpg' %}" width="197">
+                                </div>
+                                <div class=" col-sm-6 col-md-3 mb-2 wow bounceInUp" data-wow-duration="1.4s">
+                                    <img src="{% static 'bird.jpg' %}"width="197">
+                                </div>
+                                <div class="col-sm-6 col-md-3 mb-2 wow bounceInUp" data-wow-duration="1.4s">
+                                    <img src="{% static 'light.jpg' %}"width="197">
+                                </div>
+                                <div class="col-sm-6 col-md-3 mb-2 wow bounceInUp" data-wow-duration="1.4s">
+                                    <img src="{% static 'hanbok.jpg' %}" width="197">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <br>
+        <br>
+        
+
+    <section class="testimonials mybg-events">
+
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-md-12 wow fadeInUp">
+                    <h3 class="text-center font-weight-bold">LikeLion</h3>
+                    <p class="myp text-center">I think Likelion inspired me a lot. I thought I was a hotshot. But While codig, I realized I wasn't. It also opened up a new world. Thank you for giving me the power to explore the world of a new homepage. I'm not good yet, but I won't give up. Thank you for giving me new strength.</p>
+                </div>
+            </div>
+            <div class="row wow slideInLeft" data-wow-duration="3s">
+                <div class="col-md-4 mb-3">
+                    <div class="big-img2">
+                        <img src="{% static 'likelion.jpg'%}" class="img-fluid" width="300">
+                    </div>
+                    
+                </div>
+                <div class="col-md-8">
+                    <div class="inner-section">
+                        <div class="my-grid">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-4 mb-3">
+                                   
+                                    <img src="{% static 'baby.jpg' %}" class="img-fluid" width="195">
+                                    
+                                </div>
+                                <div class="col-sm-6 col-md-8 mb-3 ">
+                                    
+                                    <img src="{% static 'fight.jpg' %}" class="img-fluid" width="185">
+                                
+                                </div>
+                                <br><br>
+
+                                <div class="col-md-8 mb-3">
+                                    <div class="text-block">
+                                        <h5 class="events-heading">My nickname is mango. Of course, I love my nickname =)</h5>
+                                        <p class="myp-font">I have been called this nickname since I was in elementary school. Not often, but I still use this nickname. I hope there are many people who remember me as mango. When you remember me, I just want to have a good memory. Of course I will try.I'll remember you as a good person, too. Thank you for your interest in me.</p>
+                                    </div>
+                                </div>
+                                <div class=" col-md-4 ">
+                                     
+                                    <img src="{% static 'mango.png' %}" class="img-fluid">
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+   
+
+   
+
+    <section class="testimonials text-center ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto wow fadeInUp">
+                    <h3 class="text-center font-weight-bold">YURIM<span class="bg-main"></span> Philosophy</h3>
+                    <p class=" text-center">I only tried to beat others.I think I could only feel skepticism in the process.And now, I'm trying to have my own philosophy. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-6 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="big-img-3">
+                        <img src="{% static 'wish.jpg' %}" class="img-fluid" width="300">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-6 mt-4">
+                    <div class="my-right-text wow fadeInUp">
+
+                        <p class="text-justify font-italic">I really wanted to change my personality in the past. I have a personality which is quiet and not active.So I always admired someone who was active and had a good personality.I even copied them.But the more I did, the harder it became.I don't waste any of that time anymore.I try to love my unique personality."not to lose my true personality' is my philosophy. And I'm gonna make sure peoplle don't treat me like shit.If that's the case, I'm not going to let those people go.I'm the one who can't even treat me like that.<br> And I want to have various jobs.I think it's good to be the best in one field. But I want to experience various things.I want to be good at advertising, I want to be good at English, I want to meet students...etc.I want to try everything.And if I die, I can't experience it anymore.I want to meet many worlds in my lifetime. I want to live like that.I know nothing will be easy. But I think it's better to try and regret it.Isn't life a series of regrets?</p>
+
+                       
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+   
+    <footer class="footer bg-dark">
+        <div class="container">
+            <div class="row">
+               
+                <div class="col-lg-6 text-center text-lg-left my-auto  wow zoomIn">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item">
+                            <a href="#">Contact</a>
+                        </li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item">
+                            <a href="#">Terms of Use</a>
+                        </li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                    <p class="text-muted small mb-4 mb-lg-0">© YURIM 2019. All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-6 text-center text-lg-right my-auto  wow zoomIn">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item mr-3">
+                            <a href="#">
+                                <i class="fa fa-facebook fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-3">
+                            <a href="#">
+                                <i class="fa fa-twitter fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fa fa-instagram fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+     <script>
+              new WOW().init();
+              </script>
+    <script>
+        $(window).scroll( function(){
+
+ 
+          var topWindow = $(window).scrollTop();
+          var topWindow = topWindow * 1.5;
+          var windowHeight = $(window).height();
+          var position = topWindow / windowHeight;
+          position = 1 - position;
+        
+          $('#bottom').css('opacity', position);
+        
+        });
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.display = "0";
+            document.body.style.backgroundColor = "white";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginRight= "0";
+            document.body.style.backgroundColor = "white";
+        }
+
+ 
+     $(window).on("scroll", function() {
+            if ($(this).scrollTop() > 10) {
+                $("nav.navbar").addClass("mybg-dark");
+                $("nav.navbar").addClass("navbar-shrink");
+              
+
+            } else {
+                $("nav.navbar").removeClass("mybg-dark");
+                $("nav.navbar").removeClass("navbar-shrink");
+               
+            }
+            
+      
+
+        });
+        
+        $(function() {
+  $('#bottom').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 500);
+        return false;
+      }
+    }
+  });
+});
+
+
+</script>
+<script>
+    $(document).ready(function(){
+      $(".fancybox").fancybox({
+            openEffect: "none",
+            closeEffect: "none"
+        });
+    });
+</script>
+    </body>
+
+{% endblock %}
